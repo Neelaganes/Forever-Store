@@ -11,7 +11,7 @@ import responseCompression from './middleware/responseCompression.js'
 
 //App config
 const app = express()
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 8001;
 connectDB();
 connectCloudinary();
 // middlewares
